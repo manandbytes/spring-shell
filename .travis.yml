@@ -5,6 +5,7 @@ cache:
     - $HOME/.m2
 jdk:
   - openjdk8
+  - openjdk11
 install: true
 build: ./mvnw package
 after_success:
